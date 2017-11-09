@@ -1,0 +1,96 @@
+html{
+  animation: anim1 5s infinite;
+}
+#text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+  font-size: 72px;
+  text-align: center;
+}
+blockquote{
+  display: inline;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.couleur{
+  display: inline;
+  animation: anim2 10s infinite;
+  font-size: 24px;
+}
+@keyframes anim1{
+    from {
+        background: greenyellow;
+    }
+    10% {
+        background: deeppink;
+    }
+    20%  {
+        background: deepskyblue;
+    }
+    30%  {
+        background: silver;
+    }
+    40%  {
+        background: DARKSLATEBLUE;
+    }
+    50%  {
+        background: LIGHTGREEN;
+    }
+    60%  {
+        background: DARKCYAN;
+    }
+    70%  {
+        background: MIDNIGHTBLUE;
+    }
+    80%  {
+        background: CRIMSON;
+    }
+    90%  {
+        background: SALMON;
+    }
+    to   {
+        background: greenyellow;
+    }
+}
+@keyframes anim2{
+    from {
+        color: greenyellow;
+    }
+    10% {
+        color: deeppink;
+    }
+    20%  {
+        color: deepskyblue;
+    }
+    30%  {
+        color: silver;
+    }
+    40%  {
+        color: DARKSLATEBLUE;
+    }
+    50%  {
+        color: LIGHTGREEN;
+    }
+    60%  {
+        background: DARKCYAN;
+    }
+    70%  {
+        color: MIDNIGHTBLUE;
+    }
+    80%  {
+        color: CRIMSON;
+    }
+    90%  {
+        color: SALMON;
+    }
+    to   {
+        color: greenyellow;
+    }
+}
