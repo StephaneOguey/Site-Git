@@ -1,5 +1,5 @@
 html{
-  animation: anim1 5s infinite;
+  animation: anim1 30s infinite;
 }
 #text{
   display: flex;
@@ -21,7 +21,7 @@ blockquote{
 }
 .couleur{
   display: inline;
-  animation: anim2 10s infinite;
+  animation: anim2 30s infinite;
   font-size: 24px;
 }
 @keyframes anim1{
