@@ -21,7 +21,7 @@ blockquote{
 }
 .couleur{
   display: inline;
-  animation: anim2 30s infinite;
+  animation: anim2 10s infinite;
   font-size: 24px;
 }
 @keyframes anim1{
@@ -79,7 +79,7 @@ blockquote{
         color: LIGHTGREEN;
     }
     60%  {
-        background: DARKCYAN;
+        color: DARKCYAN;
     }
     70%  {
         color: MIDNIGHTBLUE;
